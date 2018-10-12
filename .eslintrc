@@ -1,0 +1,84 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "globals": {
+    "expect": true
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "prefer-const": 1,
+    "prefer-arrow-callback": 1,
+    "no-var": 2,
+    "no-bitwise": 2,
+    "max-lines": 1,
+    "max-len": [
+      1,
+      {
+        "code": 162
+      }
+    ],
+    "func-style": 1,
+    "comma-dangle": [
+      1,
+      "never"
+    ],
+    "camelcase": 2,
+    "brace-style": [
+      1,
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "array-bracket-spacing": [
+      1,
+      "never"
+    ],
+    "no-octal-escape": 2,
+    "no-implicit-globals": 2,
+    "no-fallthrough": 0,
+    "no-extend-native": 2,
+    "no-eval": 2,
+    "no-empty-function": 1,
+    "no-caller": 2,
+    "no-alert": 1,
+    "no-use-before-define": [
+      "warn",
+      {
+        "functions": true,
+        "classes": true
+      }
+    ],
+    "eqeqeq": 1,
+    "dot-location": [
+      1,
+      "property"
+    ],
+    "block-scoped-var": 2,
+    "no-unused-vars": 1,
+    "no-console": 1,
+    "require-yield": 0,
+    "semi": 2,
+    "quote-props": [
+      2,
+      "as-needed"
+    ]
+  }
+}
