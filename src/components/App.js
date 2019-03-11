@@ -1,29 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Provider } from "react-redux";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { StationInfoContainer } from "../containers/StationInfoContainer";
-import "react-tabs/style/react-tabs.css";
+import React from 'react';
 
-const App = ({ store }) => (
-  <Provider store={store}>
-    <Tabs>
-      <TabList>
-        <Tab>Airport Infomation</Tab>
-        <Tab>Airport Reports</Tab>
-      </TabList>
-      <TabPanel>
-        <StationInfoContainer />
-      </TabPanel>
-      <TabPanel>
-        <h4>Hi</h4>
-      </TabPanel>
-    </Tabs>
-  </Provider>
+const App = () => (
+  <div>
+    <h4>Hello World!</h4>
+  </div>
 );
-
-App.propTypes = {
-  store: PropTypes.object.isRequired
-};
 
 export default App;
