@@ -1,0 +1,1 @@
+export const GET_STATION_INFO = "GET_STATION_INFO";
